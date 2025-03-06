@@ -1,0 +1,22 @@
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+github.copilot
+github.copilot-chat
+idered.npm
+mauriciosoares.localtunnel-for-vscode
+ms-azuretools.vscode-docker
+ms-edgedevtools.vscode-edge-devtools
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-wsl
+postman.postman-for-vscode
+ritwickdey.liveserver
+sharedo.sharedo-vscode-extension
+
+
+code --list-extensions |
+xargs -L 1 echo code --install-extension |
+sed "s/$/ --force/" |
+sed "\$!s/$/ \&/" > install-extensions.bash
+
+. install-extensions.bash
+rm -rf ~/.vscode/extensions

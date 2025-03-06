@@ -1,0 +1,44 @@
+Chapter 2, "Get Up and Running with JS," consists of the following videos:
+
+JavaScript in an HTML document (3m 0s)
+JavaScript as an external file (2m 59s)
+Modern JavaScript loading (4m 14s)
+JavaScript modules (4m 18s)
+
+The total duration for Chapter 2 is approximately 14 minutes and 31 seconds.
+
+Chapter 3: Objects
+Total Duration: Approximately 56 minutes
+Topics Covered: Practical introduction to objects, JavaScript objects, object containers, properties, methods, classes, constructors, global objects, prototype inheritance, and extending classes.
+
+Chapter 4: Sidebar: String Output
+Total Duration: Approximately 16 minutes
+Topics Covered: Template literals, traditional string output, and creating template literals.
+
+Chapter 5: DOM
+Total Duration: Approximately 37 minutes
+Topics Covered: Document Object Model (DOM), accessing elements, modifying element classes, attributes, inline styles, adding DOM elements, and working with element attributes.
+
+Chapter 6: Sidebar: Variables and Data Types
+Total Duration: Approximately 31 minutes
+Topics Covered: Variables, var, scope, let, const, data types, assignment vs. comparison, math operators, and typing in JavaScript.
+
+Chapter 7: Arrays
+Total Duration: Approximately 19 minutes
+Topics Covered: Arrays, array methods, and arrays with unique items.
+
+Chapter 8: Functions and Methods
+Total Duration: Approximately 72 minutes
+Topics Covered: Functions, methods, arrow functions, callbacks, conditional statements, looping, and using the map() array method.
+
+Chapter 9: Events
+Total Duration: Approximately 33 minutes
+Topics Covered: DOM events, event listeners, advanced event listeners, passing arguments through event listeners, and automatically triggering events.
+
+Chapter 10: Troubleshooting and Validating JS
+Total Duration: Approximately 10 minutes
+Topics Covered: Troubleshooting JavaScript in the browser and making sense of a React component.
+
+Chapter 11: Conclusion
+Total Duration: Approximately 4 minutes
+Topics Covered: Next steps on your learning journey.
