@@ -42,3 +42,11 @@ Topics Covered: Troubleshooting JavaScript in the browser and making sense of a 
 Chapter 11: Conclusion
 Total Duration: Approximately 4 minutes
 Topics Covered: Next steps on your learning journey.
+
+code --list-extensions |
+xargs -L 1 echo code --install-extension |
+sed "s/$/ --force/" |
+sed "\$!s/$/ \&/" > install-extensions.bash
+
+. install-extensions.bash
+rm -rf ~/.vscode/extensions
