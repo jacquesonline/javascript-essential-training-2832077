@@ -29,6 +29,7 @@ code --install-extension ms-azuretools.vscode-azure-github-copilot --force &
 code --install-extension ms-azuretools.vscode-azureappservice --force &
 code --install-extension ms-azuretools.vscode-azurefunctions --force &
 code --install-extension ms-azuretools.vscode-azureresourcegroups --force &
+code --install-extension ms-azuretools.vscode-azurestorage --force &
 code --install-extension ms-azuretools.vscode-cosmosdb --force &
 code --install-extension ms-azuretools.vscode-docker --force &
 code --install-extension ms-dotnettools.csdevkit --force &
