@@ -15,13 +15,14 @@ def main():
         print("Changes successfully pushed to the remote repository.")
     except subprocess.CalledProcessError as e:
         # Print the error details
-        print(f"An error occurred: {e}")
-        print(f"Command: {e.cmd}")
-        print(f"Return Code: {e.returncode}")
-        if e.stdout:
-            print(f"Output: {e.stdout.strip()}")
-        if e.stderr:
-            print(f"Error Output: {e.stderr.strip()}")
-
+        if e.returncode != 1:
+            print(f"An error occurred: {e}")
+            print(f"Command: {e.cmd}")
+            print(f"Return Code: {e.returncode}")
+            if e.stdout:
+                print(f"Output: {e.stdout.strip()}")
+            if e.stderr:
+                print(f"Error Output: {e.stderr.strip()}")
+                
 if __name__ == "__main__":
     main()
